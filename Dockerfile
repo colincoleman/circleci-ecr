@@ -1,4 +1,4 @@
-FROM docker:18.09.6 as resource
+FROM docker:19.03.3 as resource
 RUN apk add --update --no-cache \
     py-pip
 RUN pip install \
