@@ -1,6 +1,7 @@
 FROM docker:19.03.3 as resource
 RUN apk add --update --no-cache \
-    py-pip
+    py-pip \
+    zip
 RUN pip install \
     awscli
 
